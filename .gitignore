@@ -1,0 +1,5 @@
+Bazel-*
+.DS_Store
+docs
+docs-*
+.vscode
