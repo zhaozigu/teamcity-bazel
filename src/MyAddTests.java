@@ -12,4 +12,9 @@ class MyAddTests {
     assertEquals(myadd.add(3, 2), 5);
   }
 
+  @Test
+  void additionNegative() {
+    MyAdd myadd = new MyAdd();
+    assertEquals(myadd.add(3, -5), -2);
+  }
 }
